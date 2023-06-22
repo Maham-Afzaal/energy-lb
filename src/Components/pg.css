@@ -1,0 +1,153 @@
+.atag{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 30px 0 rgba(10,186,181,.2);
+    border-radius: 75.1363px;
+    white-space: nowrap;
+    white-space: pre;
+    cursor: pointer;
+    color: #96958d;
+    text-decoration: none;
+    margin: 5px;
+}
+@media screen and (max-width: 767px){
+.atag{
+    margin: 0;
+}}
+.boxColor{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    background-color: #0abab5;
+    border-radius: 75.1363px;
+    transition: all .25s ease-out;
+}
+.atag:hover{
+    transition: all .25s ease-out;
+    .boxColor{
+        width: 90%;
+}
+}
+.boxTypo{
+    position: relative;
+    background: hsla(0,0%,100%,.15);
+    box-shadow: 0 4px 27px rgba(5,18,24,.6);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    border-radius: 75.1363px;
+    border: 0.5px solid rgba(255,254,241,.2);
+    padding: 15px 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.typo{
+    font-family: Mont-Regular;
+    color: #fff;
+}
+.monowrapper{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+}
+.boxMonogram{
+    position: absolute;
+    left: -340px;
+    top: -50px;
+    right: 0;   
+    bottom: 0;
+    background-image: url(../dataEnergy/monogram.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+   margin: 0;
+   padding: 0%;
+   border: 0;
+}
+.wrapp{
+    position: relative;
+    flex:'0 0 auto';
+    width: 50%;
+    flex-direction: column !important;
+}
+.boxRight{
+    position: relative;
+    flex:'0 0 auto';
+    width: 50%;
+}
+@media screen and (max-width: 767px){
+    .wrapp{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    row-gap: 30px;
+    width: 100%;
+}
+.boxRight{
+    position: relative;
+    flex:'0 0 auto';
+    width: 100%;
+}}
+.atag{
+    display: block;
+    color: #96958d;
+    text-decoration: none;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 30px 0 rgba(10,186,181,.2);
+    border-radius: 75.1363px;
+    white-space: nowrap;
+    white-space: pre;
+    cursor: pointer !important;
+    color: #96958d;
+    text-decoration: none;
+}
+
+.atag:hover{
+    transition: all .25s ease-out;
+    .boxColor{
+        width: 90%;
+}
+}
+.boxM{
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    background-color: #0abab5;
+    transition: all .25s ease-out;
+}
+.boxTypo{
+    position: relative;
+    background: hsla(0,0%,100%,.15);
+    box-shadow: 0 4px 27px rgba(5,18,24,.6);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    border: 0.5px solid rgba(255,254,241,.2);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: .8rem;
+}
+
+@media screen and (max-width: 767px){
+.Bwrapper {
+    flex-direction: column;
+    padding-bottom: 200px;
+    row-gap: 80px;
+}}
+
+.Bwrapper {
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 380px;
+}
