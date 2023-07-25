@@ -5,7 +5,9 @@
     padding-left: 35px;
     width: 100%
 }
-
+.container-medium{
+    display: block !important;
+}
 @media screen and (max-width: 767px) {
     .page-padding {
         padding-right: 24px;
@@ -21,7 +23,7 @@
 .container-medium {
     width: 100%;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
 }
 
 .container-medium {

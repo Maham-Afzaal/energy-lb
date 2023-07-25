@@ -243,3 +243,11 @@ a {
     font-family: Mont-Regular;
     color: #fff;
 }
+.tagButton{
+    display: inline;
+}
+@media screen and (max-width:400px){
+    .tagButton{
+        display: none !important;
+    }
+}

@@ -3,8 +3,7 @@ import Hero from "./Hero";
 import Slider from "./Slider";
 import PageSection from "./PageSection";
 import Circles from "./Circles";
-import Testing from "./Testing";
-
+import Unternehmen from "./Unternehmen";
 const Compo = () => {
   return (
     <div>
@@ -12,6 +11,7 @@ const Compo = () => {
       <PageSection />
       <Slider />
       <Circles />
+      <Unternehmen/>
     </div>
   );
 };

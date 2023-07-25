@@ -2,20 +2,15 @@ import React from "react";
 import { AppBar, Toolbar, Button, Typography, Box } from "@mui/material";
 import logo from "../dataEnergy/logo.svg";
 import "./nav.css";
-import Hero from "./Hero";
-import Slider from "./Slider";
-import PageSection from "./PageSection";
-import Circles from "./Circles";
 import Compo from "./Compo";
 import { NavLink } from "react-router-dom";
 import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link,
-  useNavigate,
 } from "react-router-dom";
 import Testing from "./Testing";
+import Unternehmen from "./Unternehmen";
 const NavBar = () => {
   return (
     <Router>
@@ -41,7 +36,7 @@ const NavBar = () => {
                   <Button
                     sx={{ color: "#96958d", "&:hover": { color: "white" } }}
                   >
-                   <NavLink to="/testing"> Karriere &nbsp;
+                   <NavLink to="/karriere"> Karriere &nbsp;
                     <Box className="box1" sx={{ display: "inline-block" }}>
                       <Box className="boxSpa"></Box>
                       <span className="spa">4</span>
@@ -51,15 +46,15 @@ const NavBar = () => {
                 
               </Box>
             </Box>
-            <Box>
-              <a href="#" className="atag">
+            <Box className='tagButton'>
+            <NavLink to="/kontakt" className='atag'>
                 <Box className="boxColor"></Box>
                 <Box className="boxTypo">
                   <Typography variant="body1" className="typo">
                     Kontakt aufnehmen
                   </Typography>
                 </Box>
-              </a>
+              </NavLink>
             </Box>
           </Toolbar>
         </AppBar>
@@ -67,7 +62,8 @@ const NavBar = () => {
 
       <Routes>
         <Route index path="/" element={<Compo />} />
-        <Route path="/testing" element={<Testing />} />
+        <Route path="/karriere" element={<Testing />} />
+        <Route path="/kontakt" element={<Unternehmen />} />
       </Routes>
     </Router>
   );

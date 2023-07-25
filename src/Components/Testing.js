@@ -53,11 +53,10 @@ const Testing = () => {
           <Box className="page-padding" sx={{backgroundColor:'#051218',my:0,}}>
             <Box className="container-medium relative">
               <Box className="header-wrapper-center">
-                <h2 className="text-center">Wir sind Montagepartner für</h2>
+                <h2 className="text-center" style={{color:'white'}}>Wir sind Montagepartner für</h2>
                 <h2 className="text-center">
                   <Box className="Typewriter" data-testid="typewriter-wrapper">
                     <span className="Typewriter__wrapper">Solarvertriebe</span>
-                    <span className="Typewriter__cursor">|</span>
                   </Box>
                 </h2>
               </Box>
@@ -76,7 +75,7 @@ const Testing = () => {
                      
                     </Box>
                   </Box>
-                  <h2>Installation Photovoltaikanlagen.</h2>
+                  <h2 style={{color:'white'}}>Installation Photovoltaikanlagen.</h2>
                   <p className="marginTop30 max-width">
                     Wir sind Experten für die Installation von
                     Photovoltaikanlagen und realisieren jedes Projekt nach Ihren
@@ -137,7 +136,7 @@ const Testing = () => {
                      
                     </Box>
                   </Box>
-                  <h2>Installation Wärmepumpen.</h2>
+                  <h2 style={{color:'white'}}>Installation Wärmepumpen.</h2>
                   <p className="marginTop30 max-width">
                     Wir sind ihr kompetenter Partner für die Installation von
                     nachhaltigen Wärmepumpen.
@@ -185,7 +184,7 @@ const Testing = () => {
                       <img src={carrs} width={180} height={180}/>
                     </Box>
                   </Box>
-                  <h2>
+                  <h2 style={{color:'white'}}>
                     Installation
                     <br />
                     E-Mobility.
@@ -227,12 +226,12 @@ const Testing = () => {
           <Box className="page-padding"  sx={{backgroundColor:'#052628;'}}>
             <Box className="container-medium relative">
               <Box className="header-wrapper-center align-left">
-                <h2 className="text-center">Was bieten wir?</h2>
+                <h2 className="text-center" style={{color:'white'}}>Was bieten wir?</h2>
               </Box>
               <Box className="trio">
                 <Box className="trio-item">
-                  <h2>1.</h2>
-                  <h5>Inhouse Kompetenz</h5>
+                  <h2 style={{color:'white'}}>1.</h2>
+                  <h5 style={{color:'white'}}>Inhouse Kompetenz</h5>
                   <p>
                     Wir beschäftigen erfahrene Elektriker, Dachdecker,
                     Sanitärmonteure sowie Gerüstbauer und können dadurch
